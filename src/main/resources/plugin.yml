@@ -1,0 +1,13 @@
+name: EssentialsXTP
+version: 1.0.0
+main: com.plushycat.essentialsxtphook.essentialstphook
+api-version: 1.13
+author: plushycat
+description: Adds clickable TP buttons and sounds to EssentialsX teleport requests.
+depend: [Essentials]
+commands:
+  essxtpreload:
+    description: Reload EssentialsXTP config
+    usage: /essxtpreload
+    permission: essentialsxtp.reload
+`

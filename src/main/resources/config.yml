@@ -1,0 +1,25 @@
+# ----------------------------------------------------------------#
+# EssentialsXTPA Configuration                                     #
+# ----------------------------------------------------------------#
+
+# You can use standard Minecraft color codes with the '&' symbol.
+# Placeholders: {requester} and {target} can be used in messages.
+messages:
+  target-request: "&6{requester} &ehas requested to teleport to you. "
+  requester-notification: "&eYou have requested to teleport to &6{target}&e. "
+  accept-hover: "&aClick to accept"
+  deny-hover: "&cClick to deny"
+  cancel-hover: "&cClick to cancel the request"
+
+# ----------------------------------------------------------------#
+# Sound Effects                                                   #
+# ----------------------------------------------------------------#
+
+# A list of valid sounds can be found here:
+# https://hub.spigotmc.org/javadocs/spigot/org/bukkit/Sound.html
+# Use the ENUM name from the list (e.g., ENTITY_PLAYER_LEVELUP).
+sounds:
+  request: BLOCK_ANVIL_LAND
+  accept: ENTITY_PLAYER_LEVELUP
+  deny: ENTITY_VILLAGER_NO
+  cancel: ENTITY_CAT_HURT
