@@ -10,4 +10,3 @@ commands:
     description: Reload EssentialsXTP config
     usage: /essxtpreload
     permission: essentialsxtp.reload
-`

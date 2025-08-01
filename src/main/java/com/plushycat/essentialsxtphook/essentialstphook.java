@@ -85,6 +85,7 @@ public final class essentialstphook extends JavaPlugin implements Listener {
             }, 1L);
         }
 
+        // Accept: play sound for both receiver and sender
         else if (command.startsWith("/tpaccept ")) {
             String[] args = command.split(" ");
             if (args.length < 2) {
@@ -98,6 +99,7 @@ public final class essentialstphook extends JavaPlugin implements Listener {
             playSound(player, config.getString("sounds.accept"));
         }
 
+        // Deny: play sound for both receiver and sender
         else if (command.startsWith("/tpdeny ")) {
             String[] args = command.split(" ");
             if (args.length < 2) {
@@ -111,6 +113,7 @@ public final class essentialstphook extends JavaPlugin implements Listener {
             playSound(player, config.getString("sounds.deny"));
         }
 
+        // Cancel: play sound for sender only (revert to previous implementation)
         else if (command.startsWith("/tpcancel")) {
             playSound(player, config.getString("sounds.cancel"));
         }
