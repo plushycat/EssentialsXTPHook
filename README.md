@@ -2,6 +2,7 @@
 Adds click functionality to TPA requests for EssentialsX
 
 ## Adds a clickable [✔] and [✘] to the `/tpa` and `/tpahere` requests sent via EssentialsX.
+### Also comes with configurable sounds to notify players of teleport requests, as well as while accepting and rejecting them.
 
 # Requires EssentialsX to run!!
 
