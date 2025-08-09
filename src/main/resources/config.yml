@@ -5,11 +5,13 @@
 # You can use standard Minecraft color codes with the '&' symbol.
 # Placeholders: {requester} and {target} can be used in messages.
 messages:
-  target-request: "&6{requester} &ehas requested to teleport to you. "
-  requester-notification: "&eYou have requested to teleport to &6{target}&e. "
+  target-request: "&6{requester} &ehas requested to teleport to you."
+  target-request-tpahere: "&6{requester} &ewants you to teleport to them."
+  requester-notification: "&eYou have requested to teleport to &6{target}&e."
   accept-hover: "&aClick to accept"
   deny-hover: "&cClick to deny"
   cancel-hover: "&cClick to cancel the request"
+  expired-request: "&cThis teleport request has expired."                  # Added
 
 # ----------------------------------------------------------------#
 # Sound Effects                                                   #
@@ -23,3 +25,6 @@ sounds:
   accept: ENTITY_PLAYER_LEVELUP
   deny: ENTITY_VILLAGER_NO
   cancel: ENTITY_CAT_HURT
+  expired: ENTITY_VILLAGER_NO
+
+expiry-delay: 120 # seconds
